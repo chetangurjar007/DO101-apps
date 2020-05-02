@@ -10,6 +10,11 @@ app.get('/mars', function (req, res) {
   res.send('Hello mars!\n');
 });
 
+
+app.get('/hello', function (req, res) {
+  res.send('Hello newbie!\n');
+});
+
 app.listen(8080, function () {
   console.log('Example app listening on port 8080!');
 });
